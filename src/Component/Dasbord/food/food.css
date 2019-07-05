@@ -1,0 +1,490 @@
+.edtfoodimg{
+    z-index: 1;
+    width: 520px;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 0px;
+}
+.table{
+    position: relative;
+    width: 800px;
+}
+.ganti{
+    position: relative;
+    margin-top: 100px;
+
+    /* margin-left: 350px; */ 
+}
+.addF{
+    margin-left: 50px!important;
+    width: 850px;
+
+}
+.imgadd{
+    margin-left: 90px;
+    position: absolute;
+    margin-top: 10px!important;
+    width: 130px!important;
+    height: 130px!important;
+    margin-bottom: 20px;
+    border-radius: 100%!important;
+    border: 1px solid!important;
+    border-color: #1F9CF8!important;
+}
+
+
+table{
+    margin-left: 50px;
+    width: 800px;
+}
+table, th, td {
+    border: 0px solid #bccdd5 !important;
+    border-collapse: collapse;
+    text-align: center;
+  }
+.float-right{
+    margin-top: 20px;
+    margin-right: 50px;
+}
+.judul1{
+    width: 50px;
+    height: 50px;
+    
+    
+}
+.judul{
+    background: #850785!important;
+	color: #FFFFFF;
+	padding: 1em;
+	text-align: left;
+    text-transform: uppercase;
+}
+
+tr{
+    
+    height: 50px;
+    border-radius: 100%!important;
+}
+.imgtbl{
+    width: 30px;
+    height: 30px;
+}
+.btnEdit{
+    margin-right: 10px;
+    width: 20px;
+    cursor: pointer;
+}
+.aiu{
+    width: 100px;
+}
+.modal{
+    margin-top: 200px;
+    margin-left: 500px;
+    width: 400px;
+    height: 400px;
+}
+.yabtn{
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 80px;
+}
+.nobtn{
+    width: 80px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.aaah{
+    margin-top: 20px;
+}
+.tablefood{
+    /* position: absolute; */
+    width: 1100px;
+    
+}
+.table-line{
+    /* border-radius: 20px!important; */
+    /* position: absolute; */
+    margin-top: 120px;
+	width: 1100px;
+	border-collapse: collapse;
+}
+#jdlact{
+    width: 200px;
+}
+.aou{
+    width: 20px;
+
+}
+.iu{
+    width: 120px;
+}
+.formAddFood{
+    margin-top: 120px;
+    width: 1100px;
+    height: 700px;
+    /* border-radius: 20px; */
+    background-color: #850785;
+    margin-left: 50px!important;
+    margin-bottom: 50px;
+}
+
+.lblnama{
+    position: absolute!important;
+    margin-top: 140px!important;
+}
+.inpnama{
+    position: absolute!important;
+    margin-top: 165px!important;
+}
+.lblharga{
+    position: absolute!important;
+    margin-top: 210px!important;
+}
+.inpharga{
+    
+    position: absolute!important;
+    margin-top: 240px!important;
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid ;
+    border-color: #1F9CF8;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.lblstatus{
+    position: absolute!important;
+    margin-top: 290px!important;
+}
+.inpstatus{
+    position: absolute!important;
+    margin-top: 320px!important;
+}
+.lbldeskripsi{
+    position: absolute!important;
+    margin-top: 370px!important;
+}
+.inpdeskripsi{
+    position: absolute!important;
+    margin-top: 400px!important;
+}
+.sbmtadd{
+    margin-bottom: 20px!important;
+    margin-top: 60px!important;
+}
+.input-group{
+
+    width: 350px;
+    margin-top: 440px;
+    margin-left: 130px;
+}
+input[type=text], select {
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border-color: #1F9CF8;
+  }
+  textarea {
+    width: 300px;
+    height: 100px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    resize: none;
+    border-color: #1F9CF8;
+  }
+.saip{
+    position: absolute;
+    box-shadow: 20px 10px;
+    border-radius: 20px;
+    margin-top: 50px;
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    background-color: #FFFFFF;
+    margin-left: 30px;
+}
+.imgaddfd{
+    position: absolute;
+    margin-left: 500px;
+    border-top-right-radius: 450px;
+}
+.imgaddfd2{
+    position: absolute;
+    margin-left: 500px;
+    /* border-top-right-radius: 450px; */
+}
+.imgplusfd{
+    position: absolute;
+    width: 200px;
+    margin-top:     40px;
+    margin-left: 845px;
+}
+.myButton{
+    position: absolute;
+    margin-top: 520px!important;
+    width: 300px;
+    border-radius: 10px;
+    /* height: 0px; */
+     background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  }
+  .myButton2{
+    position: absolute;
+    margin-top: 430px!important;
+    width: 300px;
+    border-radius: 10px;
+    /* height: 0px; */
+     background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  }
+tbody{
+    background-color: #FFFFFF;
+    
+}
+tbody td{
+    border: 1px solid #bccdd5 !important;
+    border-collapse: collapse;
+}
+table {
+    border-collapse: collapse;
+    border-radius: 1em;
+    overflow: hidden;
+  }
+  
+  th, td {
+    padding: 1em;
+    /* background: #ddd; */
+    border-bottom: 0px solid white!important; 
+  }
+
+
+
+  .btn-add-food {
+      border-radius: 10px;
+      margin-top: 30px;
+      margin-left: 960px;
+      margin-bottom:50px; 
+
+    position: relative;
+    vertical-align: top;
+    width: 180px;
+    height: 50px;
+    padding: 0;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+    background: #f1c40f;
+    border: 0;
+    border-bottom: 2px solid #e2b607;
+    cursor: pointer;
+    -webkit-box-shadow: inset 0 -2px #e2b607;
+    box-shadow: inset 0 -2px #e2b607;
+  }
+  .btn-add-food:active {
+    top: 1px;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+.inputfile + label {
+    position: absolute;
+    margin-top: 61px;
+    margin-left: 91px;
+    text-align: center;
+    /* border-radius: 100px; */
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    width: 130px;
+    height: 60px;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    opacity: 0.3;
+    background-color: grey;
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+    background-color: black;
+}
+.imguploadadd{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background: #4CAF50;
+}
+.formEditFood{
+    margin-top: 120px;
+    width: 1100px;
+    height: 700px;
+    /* border-radius: 20px; */
+    background-color: #850785;
+    margin-left: 50px!important;
+    margin-bottom: 50px;
+}
+.hargaEdit{
+    /* position: absolute!important; */
+    /* margin-top: 130px!important; */
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid ;
+    border-color: #1F9CF8;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.fEditFoodId{
+    margin-top: 20px;
+    margin-left: 180px;
+}
+.fEditFoodNama{
+    margin-top:90px
+}
+.imgaddEdit{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 00px;
+    width: 130px!important;
+    height: 130px!important;
+    margin-bottom: 20px;
+    border-radius: 100%!important;
+    border: 1px solid!important;
+    border-color: #1F9CF8!important;
+}
+.lblId{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 180px;
+}
+.inpDisId{
+    cursor: not-allowed;
+    position: absolute;
+    width: 60px!important;
+    margin-top: 50px!important;
+    margin-left: 210px!important;
+}
+.uhah{
+    margin-top: 120px;
+}
+.lblnamaEdit{
+    position: absolute;
+    margin-top: 150px!important;
+}
+.inpnamaEdit{
+   position: absolute; 
+   margin-top: 157px!important;
+}
+.lblhargaEdit{
+    position: absolute;
+    margin-top: 200px;
+    
+}
+.inphargaEdit{
+   position: absolute; 
+   margin-top: 210px!important;
+   width: 300px;
+   padding: 12px 20px;
+   margin: 8px 0;
+   display: inline-block;
+   border: 1px solid ;
+   border-color: #1F9CF8;
+   border-radius: 4px;
+   box-sizing: border-box;
+}
+.lblstatusEdit{
+    position: absolute;
+    margin-top: 260px;
+}
+.inpstatusEdit{
+   position: absolute; 
+   margin-top: 270px;
+}
+.lbldeskripsiEdit{
+    position: absolute;
+    margin-top: 320px;
+}
+.inpndeskripsiEdit{
+   position: absolute; 
+   margin-top: 330px;
+}
+.inputfileEdit {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+.inputfileEdit + label {
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 0px;
+    text-align: center;
+    /* border-radius: 100px; */
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    width: 130px;
+    height: 60px;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    opacity: 0.3;
+    background-color: grey;
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+.inputfileEdit:focus + label,
+.inputfileEdit + label:hover {
+    background-color: black;
+}
+.sbmtEdit{
+    position: absolute!important;
+    margin-top: 1000px!important;
+    width: 300px!important;
+    border-radius: 10px!important;
+    /* height: 0px; */
+     background-color: #4CAF50!important;
+  border: none!important;
+  color: white!important;
+  padding: 16px 32px!important;
+  text-decoration: none!important;
+  margin: 4px 2px!important;
+  cursor: pointer!important;
+}

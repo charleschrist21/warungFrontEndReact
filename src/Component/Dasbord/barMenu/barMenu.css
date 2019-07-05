@@ -1,0 +1,98 @@
+.aiu{
+    position: fixed;
+    height: 1000px;
+    width: 200px!important;
+    border-radius: 0;
+    background-color: #FFFFFF;
+    border-color: #000000;
+    border-width: 0px 0px 0px 0px;
+    border-style: solid solid solid solid;
+}
+
+.nani{
+    z-index: 0;
+    position: absolute;
+    width: 249px;
+}
+
+#v{
+    position: absolute;
+    margin-top: 40px;
+    width: 70px;
+    height: 30px;
+    margin-left: 20px;
+    background-color: #29C75F;
+    border-radius: 2px;
+}
+#tv{
+    position: absolute;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-top: 3px;
+    margin-left: 10px;
+}
+#tadmin{
+    position: absolute;
+    margin-top: 43px;
+    margin-left: 100px;
+    font-size: 17px;
+}
+#ichome{
+    position: absolute;
+    width: 80px;
+    margin-top: 100px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+#thome{
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 50px;
+    font-size: 20px;
+    color: #000000;
+}
+#icfood{
+    position: absolute;
+    width: 80px;
+    margin-top: 220px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+#txtfood{
+    position: absolute;
+    margin-top: 300px!important;
+    margin-left: 50px!important;
+    font-size: 20px;
+    color: #000000;
+} 
+#icdrink{
+    position: absolute;
+    width: 80px;
+    margin-top: 340px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+#txtdrink{
+    position: absolute;
+    margin-top: 430px!important;
+    margin-left: 50px!important;
+    font-size: 20px;
+    color: #000000;
+} 
+#icemployee{
+    position: absolute;
+    width: 80px;
+    margin-top: 470px;
+    margin-left: 45px;
+    cursor: pointer;
+}
+#txtemployee{
+    position: absolute;
+    margin-top: 560px!important;
+    margin-left: 30px!important;
+    font-size: 20px;
+    color: #000000;
+} 
+p{
+    cursor: pointer;
+}

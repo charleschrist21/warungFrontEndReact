@@ -1,0 +1,132 @@
+.table{
+    position: relative;
+    width: 800px;
+}
+.ganti{
+    position: relative;
+    margin-top: 100px;
+    /* margin-left: 350px; */ 
+}
+.addF{
+    margin-left: 20px;
+    width: 850px;
+}
+.imgadd{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid;
+}
+.input-group{
+    width: 350px;
+}
+.sbmtadd{
+    margin-bottom: 20px;
+}
+table{
+    margin-left: 50px;
+    width: 800px;
+}
+table, th, td {
+    border: 1px solid #bccdd5;
+    border-collapse: collapse;
+    text-align: center;
+    
+  }
+.float-right{
+    margin-top: 20px;
+    margin-right: 50px;
+}
+.judul1{
+    width: 50px;
+    height: 50px;
+    
+}
+.judul{
+    background-color: #2191F3;
+    color: #ffffff;
+}
+tr{
+    height: 50px;
+}
+.imgtbl{
+    width: 30px;
+    height: 30px;
+}
+.btnEdit{
+    margin-right: 10px;
+}
+.judul2{
+    width: 20px;
+}
+.tabledrink{
+    margin-top: 120px;
+    width: 1100px;
+}
+/* .btnAddDrink{
+    margin-top: 20px;
+    margin-left: 1055px;
+    margin-bottom: 50px;
+} */
+.btnAddDrink {
+    border-radius: 10px;
+      margin-top: 30px;
+      margin-left: 960px;
+      margin-bottom:50px; 
+
+    position: relative;
+    vertical-align: top;
+    width: 180px;
+    height: 50px;
+    padding: 0;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+    background: #f1c40f;
+    border: 0;
+    border-bottom: 2px solid #e2b607;
+    cursor: pointer;
+    -webkit-box-shadow: inset 0 -2px #e2b607;
+    box-shadow: inset 0 -2px #e2b607;
+  }
+  .btnAddDrink:active {
+    top: 1px;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+.icdrinkEdit{
+    margin-top: 100px;
+    position: absolute;
+    margin-left: 550px;
+    width: 450px;
+    border-top-right-radius: 250px!important;
+}
+.icplusdrinkEdit{
+    position: absolute;
+    width: 250px;
+    margin-left: 800px;
+    margin-top: 60px;
+}
+.icdrinkEdit2{
+    margin-top: 100px;
+    position: absolute;
+    margin-left: 550px;
+    width: 400px;
+    /* border-top-right-radius: 250px!important; */
+}
+.uhhuuhaa{
+    z-index: 1;
+    position: absolute;
+    margin-left: 550px;
+    margin-top: 60px;
+    width: 500px;
+}
+.icEditEmployee{
+    margin-top: 100px;
+    position: absolute;
+    margin-left: 550px;
+    width: 400px;
+}

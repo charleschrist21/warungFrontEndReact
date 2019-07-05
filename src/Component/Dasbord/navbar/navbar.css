@@ -1,0 +1,218 @@
+
+.brand-logo{
+    position: absolute!important;
+    margin-left: 20px!important;
+    font-size: 20px!important;
+    color: black!important;
+    position: absolute!important;
+    margin-top: 8px!important;
+    margin-left: 80px!important;
+}
+.material-icons{
+    color: black!important;
+}
+.nn{
+    position: absolute;
+    margin-bottom: 50px!important;
+    background-color: #ffffff;
+    width: 1100px!important;
+    margin-left: 230px!important;
+    height: 90px!important;
+
+
+}
+
+#add{
+    /* width: 50px;
+    height: 50px; */
+    /* margin-left: 850px; */
+}
+#btn{
+    width: 50px!important;
+    height: 50px!important;
+    border-radius: 100%!important;
+}
+.ahh{
+    position: absolute;
+    background-color: #29C75F;
+    height: 80px;
+    width: 1100px;
+    margin-top: 120px;
+    margin-left: 230px;
+
+}
+.foodtotal{
+    margin-left: 50px;
+    /* margin-top: 150px; */
+    position: absolute;
+    width: 350px;
+    height: 140px;
+    background-color: #ffffff;
+}
+.drinktotal{
+    margin-left: 430px;
+    /* margin-top: 150px; */
+    position: absolute;
+    width: 350px;
+    height: 140px;
+    background-color: #ffffff;
+}
+.employeetotal{
+    margin-left: 800px;
+    /* margin-top: 150px; */
+    position: absolute;
+    width: 350px;
+    height: 140px;
+    background-color: #ffffff;
+}
+#fdicon{
+    position: absolute;
+    width: 70px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+#tfood{
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 30px;
+}
+#tfoodjum{
+    position: absolute;
+    margin-left: 222px;
+    margin-top: 60px;
+    font-size: 50px;
+    color: #29C75F;
+}
+#dricon{
+    position: absolute;
+    width: 80px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+#tdrink{
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 30px;
+}
+#tdrinkjum{
+    position: absolute;
+    margin-left: 222px;
+    margin-top: 60px;
+    font-size: 50px;
+    color: #01B4E6;
+}
+#usicon{
+    position: absolute;
+    width: 80px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+#tuser{
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 30px;
+}
+#tuserjum{
+    position: absolute;
+    margin-left: 222px;
+    margin-top: 60px;
+    font-size: 50px;
+    color: #FFC000;
+}
+.aa{
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 30px;
+    width: 120px;
+    height: 30px;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+.ttotal{
+    position: absolute;
+    margin-left: 35px;
+    margin-top: 4px;
+    font-weight: bold;
+    color: #29C75F;
+}
+#nj{
+    margin-left: 50px;
+    margin-top: 25px;
+    font-size: 25px;
+}
+img{
+   cursor: pointer; 
+}
+.homekuy{
+    position: absolute;
+    margin-top: 120px!important;
+}
+#btnlgt{
+    position: absolute;
+    z-index: 1;
+    margin-left: 1200px;
+}
+.dropbtn {
+    margin-top: 5px;
+    border-radius: 100px;
+    height: 80px;
+    width: 80px;
+    background-color: #4CAF50;
+    color: white;
+    /* padding: 16px; */
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: absolute;
+    z-index: 1;
+    margin-left: 1225px;
+    display: inline-block;
+
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+  #chartasik{
+      background-color: #ffffff;
+      position: absolute;
+      border-radius: 20px;
+      margin-left: 230px;
+      width: 500px!important;
+      height: 200px!important;
+      /* position: absolute; */
+      margin-top: 410px;
+      z-index: 0!important;
+  }
+  #chartasik2{
+    background-color: #ffffff;
+    position: absolute;
+    border-radius: 20px;
+    margin-left: 830px;
+    width: 500px!important;
+    height: 200px!important;
+    /* position: absolute; */
+    margin-top: 410px;
+    z-index: 0!important;
+}
