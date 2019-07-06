@@ -35,8 +35,13 @@ class MenuDrink extends Component {
   }
   onDelete=(e)=>{
     console.log(this.state.id)
+    const config ={
+      headers: {
+          'x-access-token' : localStorage.getItem('a')
+      }
+  }
     // e.preventDefault();
-    axios.delete(`http://192.168.5.224:5000/api/warung/drink/${e}`)
+    axios.delete(`http://192.168.5.224:5000/api/warung/drink/${e}`, config)
       .then(res => {
         console.log(res);
         console.log(res.data);
@@ -45,15 +50,6 @@ class MenuDrink extends Component {
   }
 
 
-  onSubmit(e){
-    e.preventDefault();
-    console.log(this.state.id) 
-    axios.delete(`http://192.168.5.224:5000/api/warung/food/${this.state.id}`)
-      .then(res => {
-        console.log(res);
-        console.log(res.data);
-      })
-}
 
   render() {
     return (

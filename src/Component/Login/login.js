@@ -40,7 +40,11 @@ class Login extends Component{
               password: this.state.password
           };
           axios.post('http://192.168.5.224:5000/api/warung/signin', obj)
-          .then(res => localStorage.setItem('a', res.data.token), window.location.reload());
+          .then(res => {
+          localStorage.setItem('a', res.data.token);
+          localStorage.setItem('b', res.data.data[0].imgEmployee)
+           window.location.reload();
+    })
  
         } 
     render(){
@@ -48,27 +52,29 @@ class Login extends Component{
             <div className="bg">
                 <div className="frmlgn">
                 <form className="formlgn" onSubmit={this.onSubmit}>
-                <button type="submit" className="btnlogin"> submit</button>
+                <button type="submit" onClick={onsubmit}  className="btnlogin"> submit</button>
                     <img src={idcard} className="lgidcard"/>
                     <img src={lock} className="lglock"/>
                     <h2 className="ahsiapp">Login Karyawan</h2>
                     <img className="src" src={laptop}/>
                     <input 
-                    value={this.state.id}
-                    onChange={this.onChangeId}
-                    type="text" 
-                    name="id"
-                    placeholder="ID" 
-                    className="a123"
-                    required/>
+                        value={this.state.id}
+                        onChange={this.onChangeId}
+                        type="text" 
+                        name="id"
+                        placeholder="ID" 
+                        className="a123"
+                        required
+                    />
                     <input 
-                    name="password"
-                    type="password" 
-                    placeholder="Password" 
-                    className="aiueop"
-                    value={this.state.password}
-                    onChange={this.onChangePassword}
-                    required/>
+                        name="password"
+                        type="password" 
+                        placeholder="Password" 
+                        className="aiueop"
+                        value={this.state.password}
+                        onChange={this.onChangePassword}
+                        required
+                    />
                     
                     <p className="txtlupaah">Forgot <strong>Username/Password?</strong></p>
                 </form>

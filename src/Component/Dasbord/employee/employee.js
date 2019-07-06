@@ -22,8 +22,13 @@ class MenuEmployee extends Component {
   }
   onDelete=(e)=>{
     console.log(this.state.id)
+    const config ={
+      headers: {
+          'x-access-token' : localStorage.getItem('a')
+      }
+  }
     // e.preventDefault();
-    axios.delete(`http://192.168.5.224:5000/api/warung/employee/${e}`)
+    axios.delete(`http://192.168.5.224:5000/api/warung/employee/${e}`,config)
       .then(res => {
         console.log(res);
         console.log(res.data);

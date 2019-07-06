@@ -123,7 +123,7 @@ class MenuFoodAdd extends Component{
                      required
                      value={this.state.nama}
                      onChange={this.onChangeNama}
-                     />
+                     required/>
                  </div>
                  <div>
                      <label className="lblharga">Harga</label>
@@ -135,12 +135,12 @@ class MenuFoodAdd extends Component{
                       required
                       value={this.state.harga}
                       onChange={this.onChangeHarga}
-                      />
+                      required/>
                  </div>
               
                 <div>
                  <label className="lblstatus">Status</label>
-                 <select className="inpstatus" value={this.state.status} required onChange={this.onChangeStatus}>
+                 <select className="inpstatus" value={this.state.status} required onChange={this.onChangeStatus} required>
                      <option value="-"> --</option>
                      <option value='Ready' >Ready</option>
                      <option value='Kosong' >Kosong</option>
@@ -153,7 +153,7 @@ class MenuFoodAdd extends Component{
                  <div className="form-group">
                  <label htmlFor="comment" className="lbldeskripsi">Deskripsi</label>
                  <textarea className="inpdeskripsi" rows="3" name="deskripsi" 
-               value={this.state.deskripsi} 
+                value={this.state.deskripsi} 
                 required
                 onChange={this.onChangeDeskripsi}></textarea>
                 </div>
@@ -187,7 +187,7 @@ class MenuFoodAdd extends Component{
                   type="file"
                   className="custom-file-input"
                   aria-describedby="inputGroupFileAddon01"
-                  multiple id="file" className="inputfile" />
+                  multiple id="file" className="inputfile" required/>
                 
                 <label id="lblinp" htmlFor="file"> Choose a file</label>
                 <button onClick={(e) => { if (window.confirm('Apakah kamu yakin?')) this.onSubmit(e) } } variant="primary" type="submit" className="myButton">

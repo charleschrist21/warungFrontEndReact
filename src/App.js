@@ -112,6 +112,9 @@ function noMatch(){
   return  <Error/>
 }
 class App extends Component{
+  componentDidMount(){
+    console.log(this.props)
+  }
   render(){
     return(
       <div>

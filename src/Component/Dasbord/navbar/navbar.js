@@ -9,6 +9,7 @@ class NavBar extends Component{
             this.onLogout = this.onLogout.bind(this)
         }
         onLogout(e){
+            localStorage.removeItem('b')
             localStorage.removeItem('a')
             window.location.reload()
         }
@@ -21,6 +22,7 @@ class NavBar extends Component{
                 height: '50px',
                 background: '#F44336'
             }
+
         return(
             <div>
                 <div className="nn">
@@ -32,7 +34,7 @@ class NavBar extends Component{
                 </div>
             </div>
             <div className="dropdown">
-                <img  className="dropbtn"/>
+                <img  className="dropbtn" src={localStorage.getItem('b')}/>
                 <div className="dropdown-content">
                     <LinkContainer to="/"><a href="">HOME</a></LinkContainer>
                     <a href="" onClick={this.onLogout}>Logout</a>
